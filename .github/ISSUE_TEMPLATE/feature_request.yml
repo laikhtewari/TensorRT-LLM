@@ -22,8 +22,8 @@ body:
 - type: textarea
   attributes:
     label: Account info + anything else? 
-    descripton: >
+    description: >
       Anything else you want to share? If you work directly with an NVIDIA account team, please let us know what company you're writing from!
-    validations:
-      required: false
+  validations:
+    required: false
       
