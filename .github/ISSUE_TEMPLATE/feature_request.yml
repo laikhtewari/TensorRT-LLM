@@ -1,0 +1,14 @@
+name: "🚀 Feature Request"
+description: Submit a feature request to improve TensorRT-LLM
+labels: [ "feature request" ]
+title: "[RFE] "
+assignees: "laikhtewari"
+
+body:
+- type: textarea
+  attributes:
+    label: Description of Feature + Use case
+    description: >
+      What do you want to see in TensorRT-LLM and how will you use it? Please include hardware+OS information, when you would like to use the feature in production, and why this is important for you. If you work directly with an NVIDIA account team, please let us know what company you're writing from!
+  validations:
+    required: true
