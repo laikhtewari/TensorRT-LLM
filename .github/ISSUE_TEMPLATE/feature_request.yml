@@ -7,8 +7,23 @@ assignees: "laikhtewari"
 body:
 - type: textarea
   attributes:
-    label: Description of Feature + Use case
+    label: Description of Feature
     description: >
-      What do you want to see in TensorRT-LLM and how will you use it? Please include hardware+OS information, when you would like to use the feature in production, and why this is important for you. If you work directly with an NVIDIA account team, please let us know what company you're writing from!
+      What do you want to see in TensorRT-LLM and how will you use it? 
   validations:
     required: true
+- type: textarea
+  attributes:
+    label: Context Info
+    description: >
+      What motivated this request? How will the feature be used (please include hardware+OS information, when you would like to use the feature in production, and why this is important for you)
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Account info + anything else? 
+    descripton: >
+      Anything else you want to share? If you work directly with an NVIDIA account team, please let us know what company you're writing from!
+    validations:
+      required: false
+      
